@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Double-E Studio — Mobile App Portfolio</title>
+  <meta name="description" content="Double-E Studio crafts polished mobile experiences for iOS & Android. Explore our portfolio of apps." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Floating particles -->
+  <div class="particles" id="particles" aria-hidden="true"></div>
+
+  <!-- ─── NAVBAR ────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <a href="index.html" class="nav-logo">
+      <div class="logo-mark">EE</div>
+      Double-E Studio
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="#apps">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="contact.html" class="nav-cta">Get in Touch</a></li>
+    </ul>
+
+    <div class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- ─── HERO / ABOUT ──────────────────────── -->
+  <section class="hero" id="hero">
+    <div class="hero-grid">
+
+      <!-- Brand / Logo side -->
+      <div class="hero-brand fade-in">
+        <div class="studio-logo">
+          <div class="studio-badge">Independent Studio</div>
+          <h1 class="studio-name">
+            Double-E
+            <span>Studio</span>
+          </h1>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-value" data-target="3">0</div>
+            <div class="stat-label">Apps Released</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value" data-target="2">0</div>
+            <div class="stat-label">Platforms</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-value" data-target="100" data-suffix="%">0%</div>
+            <div class="stat-label">Free to use</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- About card -->
+      <div class="hero-about fade-in" style="transition-delay: 0.15s">
+        <div class="about-label">Who We Are</div>
+        <h2 class="about-title">Two developers.<br />One shared passion.</h2>
+        <p class="about-text">
+          Double-E Studio is an independent mobile software studio founded by Michele Cipriani and Edoardo Bazzotti.
+          We design and build applications for both iOS and Android.
+          Our philosophy is simple: <em>every app should feel native, be completely free, and genuinely improve daily life.</em>
+        </p>
+        <div class="interests-grid">
+          <div class="interest-tag"><span class="icon">📱</span> Mobile-First Design</div>
+          <div class="interest-tag"><span class="icon">🤖</span> AI Integration</div>
+          <div class="interest-tag"><span class="icon">🎨</span> UI / UX Craft</div>
+          <div class="interest-tag"><span class="icon">🦋</span> Flutter & Swift</div>
+          <div class="interest-tag"><span class="icon">🌿</span> Wellness Apps</div>
+          <div class="interest-tag"><span class="icon">🔒</span> Privacy Focused</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── APPS SECTION ──────────────────────── -->
+  <section class="apps-section" id="apps">
+
+    <div class="section-header fade-in">
+      <div class="section-label">Our Projects</div>
+      <h2 class="section-title">Apps We've Built</h2>
+      <p class="section-sub">Each application is crafted with attention to detail, available completely free on the App Store and / or Google Play.</p>
+    </div>
+
+    <!-- ── APP 1: The Grove ─────────────────── -->
+    <article class="app-card app-card--grove fade-in" id="app-grove">
+
+      <div class="app-visual">
+        <img
+          src="images/TheGrove.png"
+          alt="The Grove app screenshot"
+          class="app-mockup"
+          loading="lazy"
+        />
+      </div>
+
+      <div class="app-info">
+        <div class="app-badges">
+          <div class="app-platform-badge badge--cross">🌐 iOS &amp; Android</div>
+          <div class="stat-badge stat-badge--date">📅 Dec 2025</div>
+          <div class="stat-badge stat-badge--dl">⬇️ 1k+ downloads</div>
+          <div class="stat-badge stat-badge--stars">★ 5.0</div>
+        </div>
+
+        <h3 class="app-title">The Grove</h3>
+        <p class="app-tagline">Your personal sleep sound sanctuary.</p>
+
+        <p class="app-description">
+          Immerse yourself in a carefully curated collection of nature sounds and ambient atmospheres.
+          The Grove lets you create your perfect relaxation soundscape: rain, thunderstorms, ocean waves,
+          crackling campfires and much more. Blend multiple tracks, set a sleep timer and even pair stunning
+          visuals with audio through <em>Immersion Mode</em>.
+        </p>
+
+        <div class="app-features">
+          <div class="feature-item">
+            <div class="feature-icon">🌧️</div>
+            <span>Nature sounds — rain, thunder, ocean waves, forest &amp; more</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🔥</div>
+            <span>Ambient atmospheres — campfire, indoor spaces, cosy environments</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🎨</div>
+            <span>Custom mix builder — blend tracks into your personal soundscape</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🎥</div>
+            <span>Immersion Mode — full video + audio relaxation experience</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">⏰</div>
+            <span>Sleep timer — automatically stops after you fall asleep</span>
+          </div>
+        </div>
+
+        <div class="app-footer-info">
+          <div class="info-chip"><span class="dot"></span> Free — No IAP</div>
+          <div class="info-chip">🛠 Flutter</div>
+          <div class="info-chip">🔒 No data collected</div>
+        </div>
+
+        <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+          <a href="https://apps.apple.com/app/id6754394085" target="_blank" rel="noopener" class="app-cta cta--grove">
+            🍎 App Store
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.thegrove.sleepsound" target="_blank" rel="noopener" class="app-cta cta--grove" style="background: linear-gradient(135deg,#5b21b6,#4c1d95);">
+            ▶ Google Play
+          </a>
+        </div>
+
+        <!-- WHY WE BUILT IT -->
+        <div class="why-built">
+          <button class="why-toggle" aria-expanded="false" onclick="toggleWhy(this)">
+            <span class="why-toggle-label">💡 Why we built this</span>
+            <span class="why-toggle-icon">▾</span>
+          </button>
+          <div class="why-body">
+            <div class="why-inner">
+              <span class="why-quote-mark">&ldquo;</span>
+              <p class="why-text">
+                Most apps offering nature sounds lock the majority of their library behind steep paywalls,
+                leaving users with only 3–4 free sounds and ads on top of that.
+                We thought that was unfair. So we built The Grove: <strong>100% free, zero ads, over 80 sounds</strong>
+                and every feature unlocked from day one.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </article>
+
+    <!-- ── APP 2: Flora ─────────────────────── -->
+    <article class="app-card app-card--flora reverse fade-in" id="app-flora">
+
+      <div class="app-visual">
+        <img
+          src="images/TheGrove.png"
+          alt="Flora app screenshot placeholder"
+          class="app-mockup"
+          loading="lazy"
+          style="opacity: 0.5; filter: drop-shadow(0 30px 60px rgba(0,0,0,0.5)) hue-rotate(120deg);"
+        />
+        <div style="position:absolute; bottom: 20px; left:50%; transform:translateX(-50%); background:rgba(34,197,94,0.15); border:1px solid rgba(34,197,94,0.3); border-radius:8px; padding:6px 14px; font-size:0.72rem; color:#4ade80; white-space:nowrap; font-weight:600;">
+          📸 Screenshot Coming Soon
+        </div>
+      </div>
+
+      <div class="app-info">
+        <div class="app-badges">
+          <div class="app-platform-badge badge--ios">🍎 iOS Exclusive</div>
+          <div class="stat-badge stat-badge--date">📅 Mar 2026</div>
+        </div>
+
+        <h3 class="app-title">Flora</h3>
+        <p class="app-tagline">A new flower blooms every day, right on your Home Screen.</p>
+
+        <p class="app-description">
+          Flora is a beautiful iOS application that celebrates the diversity of the plant kingdom.
+          Each day a brand-new flower is revealed directly on your Home Screen through native iOS Widgets.
+          Discover stunning botanical photography, learn about each species, and let your lock screen
+          turn into a living garden that changes with the seasons.
+        </p>
+
+        <div class="app-features">
+          <div class="feature-item">
+            <div class="feature-icon">🌸</div>
+            <span>Daily flower — a new bloom showcased every single day</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🪟</div>
+            <span>Native iOS Widgets — Home Screen &amp; Lock Screen support</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">📚</div>
+            <span>Botanical details — species info, origin &amp; curiosities</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">✨</div>
+            <span>Minimal design — elegant UI built entirely in Swift &amp; SwiftUI</span>
+          </div>
+        </div>
+
+        <div class="app-footer-info">
+          <div class="info-chip"><span class="dot"></span> Free — No IAP</div>
+          <div class="info-chip">🛠 Swift / SwiftUI</div>
+          <div class="info-chip">🍎 iOS only</div>
+        </div>
+
+        <a href="contact.html" class="app-cta cta--flora">
+          🌿 Learn More
+        </a>
+
+        <!-- WHY WE BUILT IT -->
+        <div class="why-built">
+          <button class="why-toggle" aria-expanded="false" onclick="toggleWhy(this)">
+            <span class="why-toggle-label">💡 Why we built this</span>
+            <span class="why-toggle-icon">▾</span>
+          </button>
+          <div class="why-body">
+            <div class="why-inner">
+              <span class="why-quote-mark">&ldquo;</span>
+              <p class="why-text">
+                Can you name more than 10 flowers? We couldn't either.
+                That question sparked Flora: a tiny daily ritual that lets you discover a new bloom every morning
+                right on your Lock Screen or Home Screen widget. Each flower comes with a short description,
+                an interesting fact and tips on how difficult it is to grow.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </article>
+
+    <!-- ── APP 3: Hair Health ───────────────── -->
+    <article class="app-card app-card--hair fade-in" id="app-hair">
+
+      <div class="app-visual">
+        <img
+          src="images/Hair.png"
+          alt="Hair Health AI Scan & Tracker app screenshot"
+          class="app-mockup"
+          loading="lazy"
+        />
+      </div>
+
+      <div class="app-info">
+        <div class="app-badges">
+          <div class="app-platform-badge badge--hair">📱 iOS &amp; Android</div>
+          <div class="stat-badge stat-badge--date">📅 Mar 2026</div>
+        </div>
+
+        <h3 class="app-title">Hair Health</h3>
+        <p class="app-tagline">AI-powered scalp analysis &amp; therapy tracker.</p>
+
+        <p class="app-description">
+          Hair Health is your personal hair care companion. Track your scalp condition over time,
+          log ongoing treatments such as Minoxidil and other therapies, and leverage an AI-powered
+          scan that provides an approximate analysis of your scalp health. Not a medical device.
+          Monitor your Norwood Scale progression and stay consistent with your routine.
+        </p>
+
+        <div class="app-features">
+          <div class="feature-item">
+            <div class="feature-icon">🤖</div>
+            <span>AI Scalp Scan — camera-based analysis powered by machine learning</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">💊</div>
+            <span>Therapy tracker — log Minoxidil, supplements &amp; other treatments</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">📈</div>
+            <span>Norwood Scale monitor — visualise your progression over time</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">📅</div>
+            <span>Daily streaks — stay consistent with personalised reminders</span>
+          </div>
+          <div class="feature-item">
+            <div class="feature-icon">🏆</div>
+            <span>Rewards system — earn points by maintaining healthy habits</span>
+          </div>
+        </div>
+
+        <div class="app-footer-info">
+          <div class="info-chip"><span class="dot"></span> Free — No IAP</div>
+          <div class="info-chip">📢 AdMob Ads</div>
+          <div class="info-chip">🛠 Flutter</div>
+        </div>
+
+        <p style="font-size:0.78rem; color: var(--muted); font-style:italic; margin-top: -4px;">
+          ℹ️ Ads are shown to cover AI API costs — no purchases required.
+        </p>
+
+        <a href="contact.html" class="app-cta cta--hair">
+          💙 Learn More
+        </a>
+
+        <!-- WHY WE BUILT IT -->
+        <div class="why-built">
+          <button class="why-toggle" aria-expanded="false" onclick="toggleWhy(this)">
+            <span class="why-toggle-label">💡 Why we built this</span>
+            <span class="why-toggle-icon">▾</span>
+          </button>
+          <div class="why-body">
+            <div class="why-inner">
+              <span class="why-quote-mark">&ldquo;</span>
+              <p class="why-text">
+                Every competing hair-health app hides AI scans behind a paywall. We followed the same
+                philosophy as The Grove: <strong>no feature should cost money</strong>. To cover the AI API costs
+                we show short, non-intrusive ads through AdMob, so you always get the full experience for free.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </article>
+
+  </section>
+
+  <!-- ─── FOOTER ────────────────────────────── -->
+  <footer>
+    <div class="footer-logo">
+      <div class="logo-mark">EE</div>
+      Double-E Studio
+    </div>
+    <p class="footer-copyright">© 2025 Double-E Studio. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    function toggleWhy(btn) {
+      const expanded = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', !expanded);
+      const body = btn.nextElementSibling;
+      body.classList.toggle('open', !expanded);
+    }
+  </script>
+</body>
+</html>
