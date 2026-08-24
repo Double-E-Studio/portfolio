@@ -667,6 +667,7 @@ section { padding: 100px 5%; }
 
 .avatar--m { background: linear-gradient(135deg, #7c3aed, #a855f7); }
 .avatar--e { background: linear-gradient(135deg, #2563eb, #3b82f6); }
+.avatar--s { background: linear-gradient(135deg, #059669, #10b981); }
 
 .team-name {
   font-size: 1.2rem;
@@ -692,6 +693,9 @@ section { padding: 100px 5%; }
   padding: 10px 16px;
   transition: all var(--transition);
   width: fit-content;
+  max-width: 100%;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
 }
 
 .team-email:hover {
